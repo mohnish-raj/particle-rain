@@ -5,7 +5,7 @@ let image;
 let imgData;
 
 (async function() {
-  image = await loadImage("../zoro.jpg");
+  image = await loadImage("./zoro.jpg");
   imgData = getImageData(image).data;
 
   /* draw pixelated image */
